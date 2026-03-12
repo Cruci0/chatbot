@@ -32,8 +32,3 @@ def root():
 def health():
     """헬스 체크."""
     return {"status": "ok"}
-
-@app.get("/weather")
-def weather():
-    """날씨 정보."""
-    return {"status": "ok"}    
